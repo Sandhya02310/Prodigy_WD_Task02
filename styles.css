@@ -1,0 +1,32 @@
+h1{
+    color: rgb(17, 0, 255);
+}
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: greenyellow; /* Light gray background color */
+}
+
+.stopwatch {
+    text-align: center;
+}
+
+.display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+.laps {
+    list-style-type: none;
+    padding: 0;
+}
